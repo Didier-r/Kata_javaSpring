@@ -24,7 +24,7 @@ public class AlumnoController {
 		return "alumno";
 		
 	}
-	@GetMapping("/empleado/new")
+	@GetMapping("/alumno/new")
 	public String newEmpleadoForm(Model modelo) {
 		Alumno alumno =  new Alumno();
 		modelo.addAttribute("alumno", alumno);
